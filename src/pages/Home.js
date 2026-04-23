@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
       <div className="profile-section">
-        <div className="avatar">RM</div>
+        <img src="pfp.png" alt="Rehan Mohiddin" className="avatar" />
         <h1>Rehan Mohiddin</h1>
         <p className="tagline">Computer Science Student</p>
       </div>

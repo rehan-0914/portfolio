@@ -3,16 +3,16 @@ import './Projects.css';
 
 const projects = [
   {
+    title: 'KeyBot.tf',
+    description: 'A TF2 Keys trading website where you can buy and sell TF2 keys with crypto.',
+    tech: 'HTML, CSS, JavaScript, Node.js',
+    link: 'https://github.com/rehan-0914'
+  },
+  {
     title: 'Portfolio Website',
     description: 'A personal portfolio website built with React and React Router. Shows my skills, projects, and contact information.',
     tech: 'React, CSS, React Router',
     link: 'https://github.com/rehan-0914/portfolio'
-  },
-  {
-    title: 'Todo App',
-    description: 'A simple todo application where users can add, delete, and mark tasks as complete. Built using Python and SQLite.',
-    tech: 'Python, SQLite',
-    link: 'https://github.com/rehan-0914'
   }
 ];
 

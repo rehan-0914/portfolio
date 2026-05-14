@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehan Mohiddin — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">RM<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#internship">Internship</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <div class="glow glow-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Internships · Summer 2026
+      </div>
+      <h1 class="hero-title">
+        <span class="line">Rehan</span>
+        <span class="line accent">Mohiddin</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        Third-year B.Tech (AI) at <strong>Mahindra University</strong> · Building production-grade AI products, automation platforms & security tools from idea to deployment.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/Rehan_Mohiddin_Resume.pdf" class="btn btn-ghost" download>Download CV</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">7+</span>
+          <span class="stat-label">Live Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Weekly Active Users</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">5★</span>
+          <span class="stat-label">Fiverr Rating</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">CVEs Found</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">01 · About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Shipping real things,<br /><span class="accent">not just assignments.</span></h2>
+          <p>I'm Rehan — an AI engineering student who builds things that actually get used. From a Chrome extension ranked <strong>#1 Product of the Day</strong> on PeerPush to an automated crypto-trading platform running 24/7, I care about taking ideas all the way to production.</p>
+          <p>My work spans applied machine learning, full-stack product development, and cybersecurity research — three areas I believe are inseparable when building technology that's both powerful and responsible.</p>
+          <div class="about-links">
+            <a href="https://github.com/rehan-0914" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/rehanmb" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:rehan.mb2005@gmail.com" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="about-card">
+            <div class="about-photo-placeholder">
+              <img src="assets/images/profile.png" alt="Rehan Mohiddin" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            </div>
+            <div class="about-card-info">
+              <h3>Rehan Mohiddin</h3>
+              <p>B.Tech AI · Mahindra University</p>
+              <div class="location-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Hyderabad, India
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-label">02 · Skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Languages & Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-blue">Python</span>
+            <span class="tag tag-yellow">JavaScript</span>
+            <span class="tag tag-green">Node.js</span>
+            <span class="tag tag-purple">PHP</span>
+            <span class="tag tag-orange">SQL</span>
+            <span class="tag tag-blue">Flask</span>
+            <span class="tag tag-green">React Native</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-pink">BERT</span>
+            <span class="tag tag-pink">Transformers</span>
+            <span class="tag tag-pink">NLP</span>
+            <span class="tag tag-purple">GPT-4 API</span>
+            <span class="tag tag-purple">Claude LLMs</span>
+            <span class="tag tag-orange">TensorFlow</span>
+            <span class="tag tag-orange">AlexNet / GoogLeNet</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h3>Databases & Infra</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-green">PostgreSQL</span>
+            <span class="tag tag-green">MongoDB</span>
+            <span class="tag tag-yellow">SQLite</span>
+            <span class="tag tag-blue">REST APIs</span>
+            <span class="tag tag-blue">Webhooks</span>
+            <span class="tag tag-orange">Linux / Self-hosted</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Security & Specialties</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-red">IDOR / Auth Audits</span>
+            <span class="tag tag-red">JWT Analysis</span>
+            <span class="tag tag-yellow">Chrome Extensions</span>
+            <span class="tag tag-yellow">Web Scraping</span>
+            <span class="tag tag-purple">Crypto Payments</span>
+            <span class="tag tag-purple">Steam Trade Bot APIs</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label">03 · Projects & Experience</div>
+      <h2 class="section-title">Things I've built</h2>
+
+      <!-- Project 1 - Featured -->
+      <div class="project-featured">
+        <div class="project-featured-img">
+          <img src="assets/images/getcouponpilot.png" alt="GetCouponPilot" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        </div>
+        <div class="project-featured-content">
+          <div class="project-meta">
+            <span class="project-date">Jan 2026 — Ongoing</span>
+            <span class="project-status live">● Live</span>
+          </div>
+          <h3 class="project-title">GetCouponPilot.com</h3>
+          <p class="project-type">Consumer Chrome Extension · End-to-End Product</p>
+          <p class="project-desc">Launched a checkout-automation extension that automatically finds and applies coupon codes at checkout. Ranked <strong>#1 Product of the Day and Week</strong> on PeerPush.net with 50+ Weekly Active Users.</p>
+          <div class="project-highlights">
+            <div class="highlight">
+              <span class="highlight-num">#1</span>
+              <span>Product of the Day</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">347K+</span>
+              <span>Coupon Codes</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">182K+</span>
+              <span>Stores Covered</span>
+            </div>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">SQLite</span>
+            <span class="tech-tag">Chrome Extension</span>
+          </div>
+          <a href="https://getcouponpilot.com" target="_blank" class="btn btn-sm btn-primary">Visit Site →</a>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Alzheimer -->
+        <div class="project-card" data-delay="0">
+          <div class="project-card-img">
+            <img src="assets/images/alzheimer.png" alt="Alzheimer Detection" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">Applied AI / ML</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Mar — May 2026</span>
+              <span class="project-status university">University</span>
+            </div>
+            <h3>Alzheimer Detection Model</h3>
+            <p>Deep-learning framework classifying four Alzheimer stages from MRI scans using custom AlexNet and GoogLeNet (Inception) architectures. Validated via ROC/AUC and confusion matrices.</p>
+            <div class="project-tech">
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">AlexNet</span>
+              <span class="tech-tag">GoogLeNet</span>
+              <span class="tech-tag">ROC/AUC</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meeting Insights -->
+        <div class="project-card" data-delay="100">
+          <div class="project-card-img">
+            <img src="assets/images/meetinginsights.png" alt="Meeting Insights" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">AI / Browser Extension</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Dec 2025 — Ongoing</span>
+              <span class="project-status live">● Live</span>
+            </div>
+            <h3>Meeting Insights & Live Transcription</h3>
+            <p>Chrome extension delivering real-time meeting transcription with auto-generated action items, summaries, and insights powered by GPT-4 over live audio capture.</p>
+            <div class="project-tech">
+              <span class="tech-tag">GPT-4 API</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Chrome Extension</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Security Research -->
+        <div class="project-card" data-delay="200">
+          <div class="project-card-img">
+            <img src="assets/images/security.png" alt="Security Research" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">Cybersecurity</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Dec 2025 — Jan 2026</span>
+              <span class="project-status patched">Responsibly Disclosed</span>
+            </div>
+            <h3>Security Research — MU Infra Audit</h3>
+            <p>Audited Mahindra University apps (QTap/JUNO). Discovered <strong>10+ critical vulnerabilities</strong> including IDOR in finance APIs and a JWT-bypass enabling account takeover. Findings adopted by university IT.</p>
+            <div class="project-tech">
+              <span class="tech-tag">IDOR</span>
+              <span class="tech-tag">JWT Analysis</span>
+              <span class="tech-tag">Auth Auditing</span>
+              <span class="tech-tag">Responsible Disclosure</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- NLP Privacy -->
+        <div class="project-card" data-delay="0">
+          <div class="project-card-img">
+            <img src="assets/images/nlpprivacy.png" alt="NLP Privacy Detector" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">Applied NLP</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Nov — Dec 2025</span>
+            </div>
+            <h3>NLP Privacy Policy Red-Flag Detector</h3>
+            <p>AI system surfacing risky privacy-policy clauses via a fine-tuned BERT classifier with legal-text tokenization pipeline. Chrome extension runs in-browser inference for real-time protection.</p>
+            <div class="project-tech">
+              <span class="tech-tag">BERT</span>
+              <span class="tech-tag">NLP</span>
+              <span class="tech-tag">Chrome Extension</span>
+              <span class="tech-tag">Transformers</span>
+            </div>
+            <a href="https://github.com/rehan-0914/privacy-policy-analyzer" target="_blank" class="btn btn-sm btn-ghost" style="margin-top:0.5rem">View on GitHub →</a>
+          </div>
+        </div>
+
+        <!-- Chatbots -->
+        <div class="project-card" data-delay="100">
+          <div class="project-card-img">
+            <img src="assets/images/chatbots.png" alt="Chatbots Fiverr" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">Automation · Freelance</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Apr 2023 — Ongoing</span>
+              <span class="project-status live">● Revenue Generating</span>
+            </div>
+            <h3>Discord & Telegram Chatbots</h3>
+            <p>Production-grade chatbots shipped to international clients via Fiverr. Python bots with real-time API hooks, SQL/NoSQL persistence, and modular architecture. Maintained a 5-star rating.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Discord API</span>
+              <span class="tech-tag">Telegram API</span>
+              <span class="tech-tag">PostgreSQL</span>
+            </div>            <a href="https://www.fiverr.com/rehan_mb" target="_blank" class="btn btn-sm btn-ghost" style="margin-top:0.5rem">View on Fiverr →</a>          </div>
+        </div>
+
+        <!-- KeyBot.tf -->
+        <div class="project-card" data-delay="200">
+          <div class="project-card-img">
+            <img src="assets/images/keybot.png" alt="KeyBot.tf" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="card-overlay">
+              <span class="card-cat">Fintech · Independent</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-date">Mar 2023 — Ongoing</span>
+              <span class="project-status live">● Revenue Generating</span>
+            </div>
+            <h3>KeyBot.tf — TF2 + Crypto Platform</h3>
+            <p>End-to-end automated trading platform for TF2 items + cryptocurrency with significant annual transaction volume. Custom multi-chain crypto gateway supporting USDT, Polygon, Tron, and LTC.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Crypto Gateway</span>
+              <span class="tech-tag">Steam API</span>
+            </div>
+            <a href="https://keybot.tf" target="_blank" class="btn btn-sm btn-ghost" style="margin-top:0.5rem">Visit Site →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+  <section id="internship" class="section section-alt">
+    <div class="container">
+      <div class="section-label">04 · Internship</div>
+      <h2 class="section-title">Open to opportunities</h2>
+      <p class="section-subtitle">I'm actively looking for internships where I can apply my skills in AI, product development, and systems engineering to real-world problems.</p>
+      <div class="internship-grid">
+        <div class="internship-card">
+          <div class="internship-icon">☀️</div>
+          <h3>Summer 2026</h3>
+          <p class="internship-dates">May 28 — August 9, 2026</p>
+          <p>10-week summer internship. Ideal for AI/ML roles, full-stack product positions, or security engineering.</p>
+        </div>
+        <div class="internship-card internship-featured">
+          <div class="internship-badge">Most Flexible</div>
+          <div class="internship-icon">🚀</div>
+          <h3>Summer + Final Year</h3>
+          <p class="internship-dates">May 28, 2026 — April 2027</p>
+          <p>Full continuity from summer through final year. Best fit for roles seeking long-term contribution or pre-placement opportunities.</p>
+        </div>
+        <div class="internship-card">
+          <div class="internship-icon">❄️</div>
+          <h3>Final Year Semester</h3>
+          <p class="internship-dates">December 2026 — April 2027</p>
+          <p>Semester-length internship during final year. Available for hybrid or remote positions requiring part-time commitment.</p>
+        </div>
+      </div>
+      <div class="internship-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <p>Based in Hyderabad · Open to relocation or remote · Immediate availability for discussions</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-container">
+      <div class="section-label">05 · Contact</div>
+      <h2 class="section-title contact-title">Let's build<br /><span class="accent">something great.</span></h2>
+      <p class="contact-desc">Whether you have a project idea, an internship role, or just want to connect — my inbox is open.</p>
+      <div class="contact-actions">
+        <a href="mailto:rehan.mb2005@gmail.com" class="btn btn-primary btn-large">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Send an Email
+        </a>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/rehanmb" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com/rehan-0914" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="nav-logo">RM<span class="dot">.</span></span>
+      <p>© 2026 Rehan Mohiddin · Built with HTML, CSS & JS</p>
+      <a href="https://github.com/rehan-0914" target="_blank">github.com/rehan-0914</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
